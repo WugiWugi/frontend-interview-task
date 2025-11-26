@@ -11,7 +11,7 @@ export default function App() {
   const [visible, setVisible] = useState<Record<string, boolean>>({})
 
   useEffect(() => {
-    fetch('./data.json')
+    fetch(`${import.meta.env.BASE_URL}data.json`)
       .then((r) => r.json())
       .then((d) => setRaw(d))
   }, [])
