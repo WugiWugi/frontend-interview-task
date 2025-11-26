@@ -90,7 +90,6 @@ export default function App() {
           </div>
         </div>
       </div>
-
       {raw && <Chart variants={variants} visible={visible} mode={mode} />}
     </div>
   )
