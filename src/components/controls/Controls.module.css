@@ -1,0 +1,21 @@
+.controls {
+display: flex;
+gap: 12px;
+flex-wrap: wrap;
+align-items: center;
+margin-bottom: 12px;
+}
+
+
+.variantCheckbox {
+display: inline-flex;
+align-items: center;
+gap: 6px;
+}
+
+
+.switch {
+padding: 6px 10px;
+border-radius: 6px;
+background: rgba(0,0,0,0.05);
+}
